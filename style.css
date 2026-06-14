@@ -1,0 +1,51 @@
+.correct{
+    color: rgb(53, 243, 53);
+}
+
+.incorrect{
+    color: red;
+}
+
+.pending{
+    color: gray;
+}
+
+#textDisplay{
+    font-size: 35px;
+    font-family: monospace;
+}
+#hiddenInput{
+    position:absolute;
+    opacity:0;
+}
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    width:800px;
+}
+
+.txt-area{
+    margin-bottom:30px;
+}
+
+#textDisplay{
+    font-size:35px;
+    font-family:monospace;
+    text-align:center;
+}
+
+#hiddenInput{
+    position:absolute;
+    left:-9999px;
+}
+
+.buttons{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+}
